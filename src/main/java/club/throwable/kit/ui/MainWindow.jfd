@@ -1,0 +1,343 @@
+JFDML JFormDesigner: "6.0.2.0.116" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.intellij.uiDesigner.core.GridLayoutManager ) {
+			"$columnCount": 1
+			"$rowCount": 1
+		} ) {
+			name: "mainPanel"
+			"minimumSize": new java.awt.Dimension( 700, 800 )
+			"opaque": false
+			"preferredSize": new java.awt.Dimension( 700, 800 )
+			"requestFocusEnabled": false
+			add( new FormContainer( "javax.swing.JTabbedPane", new FormLayoutManager( class javax.swing.JTabbedPane ) ) {
+				name: "tabbedPane"
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.intellij.uiDesigner.core.GridLayoutManager ) {
+					"$columnCount": 1
+					"$rowCount": 6
+					"margin": new java.awt.Insets( 10, 10, 10, 10 )
+				} ) {
+					name: "aboutPanel"
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "logoLabel"
+						"icon": new com.jformdesigner.model.SwingIcon( 0, "/static/img/logo-lg.png" )
+						"text": ""
+					}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+						"hSizePolicy": 0
+						"vSizePolicy": 0
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "appNameLabel"
+						"font": new java.awt.Font( "Consolas", 1, 36 )
+						"text": "Throwable-Kit"
+					}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+						"row": 1
+						"hSizePolicy": 0
+						"vSizePolicy": 0
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "versionLabel"
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 131073, 18, true )
+						"text": "version"
+					}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+						"row": 2
+						"hSizePolicy": 0
+						"vSizePolicy": 0
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "powerByLabel"
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 18, true )
+						"text": "<html>Power by: <a href='http://throwable.club'>Throwable</a></html>"
+					}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+						"row": 3
+						"hSizePolicy": 0
+						"vSizePolicy": 0
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "forkLabel"
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 15, true )
+						"text": "<html>Fork this <a href='https://github.com/zjcscut/throwable-kit'>kit</a> on github</html>"
+					}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+						"row": 5
+						"hSizePolicy": 0
+						"vSizePolicy": 0
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "checkUpdateButton"
+						"text": "检查更新"
+					}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+						"row": 4
+						"vSizePolicy": 0
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"title": "关于"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.intellij.uiDesigner.core.GridLayoutManager ) {
+					"$columnCount": 1
+					"$rowCount": 1
+				} ) {
+					name: "helpPanel"
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "helpScrollPane"
+						add( new FormComponent( "javax.swing.JTextPane" ) {
+							name: "helpTextPane"
+							"margin": new java.awt.Insets( 10, 30, 10, 10 )
+						} )
+					}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+						"fill": 3
+						"hSizePolicy": 7
+						"vSizePolicy": 7
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"title": "使用帮助"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.intellij.uiDesigner.core.GridLayoutManager ) {
+					"$columnCount": 2
+					"$rowCount": 2
+					"margin": new java.awt.Insets( 10, 10, 0, 0 )
+				} ) {
+					name: "jsonPanel"
+				}, new FormLayoutConstraints( null ) {
+					"title": "JSON工具"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.intellij.uiDesigner.core.GridLayoutManager ) {
+					"$columnCount": 1
+					"$rowCount": 1
+					"margin": new java.awt.Insets( 10, 10, 10, 10 )
+				} ) {
+					name: "settingPanel"
+					"preferredSize": new java.awt.Dimension( -1, -1 )
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "settingScrollPane"
+						add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.intellij.uiDesigner.core.GridLayoutManager ) {
+							"$columnCount": 1
+							"$rowCount": 3
+						} ) {
+							name: "settingInnerPanel"
+							"minimumSize": new java.awt.Dimension( -1, -1 )
+							"preferredSize": new java.awt.Dimension( -1, -1 )
+							add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.intellij.uiDesigner.core.GridLayoutManager ) {
+								"$columnCount": 2
+								"$rowCount": 2
+								"margin": new java.awt.Insets( 15, 50, 10, 0 )
+							} ) {
+								name: "normalPanel"
+								"border": new javax.swing.border.TitledBorder( &EtchedBorder0 new javax.swing.border.EtchedBorder( 1, null, null ), "常规" )
+								add( new FormComponent( "javax.swing.JCheckBox" ) {
+									name: "autoCheckUpdateCheckBox"
+									"text": "启动时自动检查更新"
+								}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+									"anchor": 8
+									"vSizePolicy": 0
+								} )
+								add( new FormComponent( "com.jformdesigner.designer.wrapper.HSpacer" ) {
+									name: "hSpacer2"
+									auxiliary() {
+										"JavaCodeGenerator.variableLocal": true
+									}
+								}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+									"column": 1
+									"fill": 1
+									"hSizePolicy": 6
+									"vSizePolicy": 1
+								} )
+								add( new FormComponent( "com.jformdesigner.designer.wrapper.VSpacer" ) {
+									name: "vSpacer2"
+									auxiliary() {
+										"JavaCodeGenerator.variableLocal": true
+									}
+								}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+									"row": 1
+									"fill": 2
+									"hSizePolicy": 1
+									"vSizePolicy": 6
+								} )
+							}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+								"fill": 3
+							} )
+							add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.intellij.uiDesigner.core.GridLayoutManager ) {
+								"$columnCount": 3
+								"$rowCount": 4
+								"margin": new java.awt.Insets( 15, 50, 10, 0 )
+							} ) {
+								name: "facePanel"
+								"border": new javax.swing.border.TitledBorder( #EtchedBorder0, "外观设置" )
+								add( new FormComponent( "com.jformdesigner.designer.wrapper.HSpacer" ) {
+									name: "hSpacer3"
+									auxiliary() {
+										"JavaCodeGenerator.variableLocal": true
+									}
+								}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+									"column": 2
+									"fill": 1
+									"hSizePolicy": 6
+									"vSizePolicy": 1
+								} )
+								add( new FormComponent( "javax.swing.JComboBox" ) {
+									name: "settingThemeComboBox"
+									"model": new javax.swing.DefaultComboBoxModel {
+										selectedItem: "Darcula"
+										addElement( "Darcula" )
+										addElement( "系统默认" )
+										addElement( "Windows" )
+										addElement( "Nimbus" )
+										addElement( "Metal" )
+										addElement( "Motif" )
+									}
+								}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+									"column": 1
+									"anchor": 8
+									"fill": 1
+									"hSizePolicy": 2
+									"vSizePolicy": 0
+									"minimumSize": new java.awt.Dimension( 100, -1 )
+									"preferredSize": new java.awt.Dimension( 100, -1 )
+								} )
+								add( new FormComponent( "javax.swing.JLabel" ) {
+									name: "themeLabel"
+									"text": "主题风格"
+								}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+									"anchor": 8
+									"hSizePolicy": 0
+									"vSizePolicy": 0
+								} )
+								add( new FormComponent( "com.jformdesigner.designer.wrapper.VSpacer" ) {
+									name: "vSpacer3"
+									auxiliary() {
+										"JavaCodeGenerator.variableLocal": true
+									}
+								}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+									"row": 3
+									"fill": 2
+									"hSizePolicy": 1
+									"vSizePolicy": 6
+								} )
+								add( new FormComponent( "javax.swing.JLabel" ) {
+									name: "fontLabel"
+									"text": "字体"
+								}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+									"row": 1
+									"anchor": 8
+									"hSizePolicy": 0
+									"vSizePolicy": 0
+								} )
+								add( new FormComponent( "javax.swing.JComboBox" ) {
+									name: "settingFontNameComboBox"
+									"model": new javax.swing.DefaultComboBoxModel {
+										selectedItem: "Microsoft YaHei"
+										addElement( "Microsoft YaHei" )
+										addElement( "Microsoft YaHei Light" )
+										addElement( "Microsoft YaHei UI" )
+										addElement( "Microsoft YaHei UI Light" )
+									}
+								}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+									"column": 1
+									"row": 1
+									"anchor": 8
+									"fill": 1
+									"hSizePolicy": 2
+									"vSizePolicy": 0
+								} )
+								add( new FormComponent( "javax.swing.JLabel" ) {
+									name: "fontSizeLabel"
+									"text": "字号"
+								}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+									"row": 2
+									"anchor": 8
+									"hSizePolicy": 0
+									"vSizePolicy": 0
+								} )
+								add( new FormComponent( "javax.swing.JComboBox" ) {
+									name: "settingFontSizeComboBox"
+									"model": new javax.swing.DefaultComboBoxModel {
+										selectedItem: "10"
+										addElement( "10" )
+										addElement( "11" )
+										addElement( "12" )
+										addElement( "13" )
+										addElement( "14" )
+										addElement( "15" )
+										addElement( "16" )
+										addElement( "17" )
+										addElement( "18" )
+										addElement( "19" )
+										addElement( "20" )
+										addElement( "21" )
+										addElement( "22" )
+										addElement( "23" )
+										addElement( "24" )
+										addElement( "25" )
+										addElement( "26" )
+									}
+								}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+									"column": 1
+									"row": 2
+									"anchor": 8
+									"fill": 1
+									"hSizePolicy": 2
+									"vSizePolicy": 0
+								} )
+							}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+								"row": 1
+								"fill": 3
+							} )
+							add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.intellij.uiDesigner.core.GridLayoutManager ) {
+								"$columnCount": 2
+								"$rowCount": 2
+								"margin": new java.awt.Insets( 10, 20, 10, 0 )
+							} ) {
+								name: "updatePanel"
+								add( new FormComponent( "javax.swing.JButton" ) {
+									name: "saveSettingButton"
+									"text": "更新设置"
+								}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+									"fill": 1
+									"vSizePolicy": 0
+								} )
+								add( new FormComponent( "com.jformdesigner.designer.wrapper.HSpacer" ) {
+									name: "hSpacer4"
+									auxiliary() {
+										"JavaCodeGenerator.variableLocal": true
+									}
+								}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+									"column": 1
+									"fill": 1
+									"hSizePolicy": 6
+									"vSizePolicy": 1
+								} )
+								add( new FormComponent( "com.jformdesigner.designer.wrapper.VSpacer" ) {
+									name: "vSpacer4"
+									auxiliary() {
+										"JavaCodeGenerator.variableLocal": true
+									}
+								}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+									"row": 1
+									"fill": 2
+									"hSizePolicy": 1
+									"vSizePolicy": 6
+								} )
+							}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+								"row": 2
+								"fill": 3
+							} )
+						} )
+					}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+						"fill": 3
+						"hSizePolicy": 7
+						"vSizePolicy": 7
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"title": "设置"
+				} )
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"fill": 3
+				"preferredSize": new java.awt.Dimension( 200, 200 )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 700, 800 )
+		} )
+	}
+}
